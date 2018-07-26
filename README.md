@@ -1,24 +1,22 @@
-# README
+# The THP project name : the_gossip_project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Configuration ruby & Rails
 
-Things you may want to cover:
+Ruby version : 2.5.1
+<br>
+Rails version : 5.2.0
 
-* Ruby version
+## Install
 
-* System dependencies
+Installer les gems
+```sh
+bundle install
+```
 
-* Configuration
+lancer les requetes
+```sh
+rails db:migrate
+rails db:seed
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## The focus of the project is to work with rails and how to create and manipulate the data base
